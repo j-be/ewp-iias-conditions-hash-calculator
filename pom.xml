@@ -42,12 +42,12 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/j-be/ewp-iias-conditions-hash-calculator</url>
+            <url>https://maven.pkg.github.com/${github.repo}</url>
         </repository>
         <snapshotRepository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/j-be/ewp-iias-conditions-hash-calculator</url>
+            <url>https://maven.pkg.github.com/${github.repo}</url>
         </snapshotRepository>
     </distributionManagement>
 

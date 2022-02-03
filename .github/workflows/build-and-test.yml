@@ -17,6 +17,6 @@ jobs:
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots verify
       - name: Deploy to GitHub repo
-        run: mvn --batch-mode deploy
+        run: mvn --batch-mode deploy -Dgithub.repo=$GITHUB_REPOSITORY
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
